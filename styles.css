@@ -1,0 +1,66 @@
+body {background-color: black;}
+
+h1 {
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    border-color: yellow;
+    border-style: solid;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+p{
+    color: white;
+}
+
+.main {
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.navi>li>a {
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+.navi {
+
+    list-style: none;
+    
+
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+    padding-left: 0;
+}
+
+.navi>li {
+    
+    background-color: black;
+    display: inline-block;
+}
+
+.navi>li>a:hover{
+    background-color: white;
+}
+
+.div1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-style: outset;
+    border-color: yellow;
+    margin: 10px 10px 10px 10px;
+}
+
+.div1>img{
+    display: inline-block;
+    width: 20%;
+}
+
