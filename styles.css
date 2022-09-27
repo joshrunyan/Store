@@ -14,6 +14,28 @@ p{
     color: white;
 }
 
+h2 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pic {
+    display: block;
+    border-style: solid;
+    border-color: yellow;
+    width: 30%;
+    margin: auto;
+}
+
+.Star {
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    width: 40%;
+    margin: auto;
+}
+
 .main {
     border-style: solid;
     display: block;
@@ -63,4 +85,54 @@ p{
     display: inline-block;
     width: 20%;
 }
+
+.div2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-style: outset;
+    border-color: yellow;
+    margin: 10px 10px 10px 10px;
+}
+
+.div3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-style: outset;
+    border-color: yellow;
+    margin: 10px 60px 10px 60px;
+}
+
+.div2>img{
+    display: inline-block;
+    width: 25%;
+}
+
+.i3{
+
+display: inline-block;
+width: 20%;
+
+margin: 5% 5% 5% 5%;
+
+}
+
+.p3{
+    display: inline-block;
+    width: 20vw;
+
+    
+    
+    margin: 10px 5% 10px 5%;
+
+    text-align: center;
+    
+    border-style: solid;
+    border-color: white;
+    
+   
+}
+
+
 
